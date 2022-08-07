@@ -1,0 +1,12 @@
+.education{
+    background: #000;
+}
+.experience h1{    
+    line-height: 2;
+    border-bottom: 2px solid rgb(255, 208, 0);
+    width: 40%;
+    margin: 2rem 0;
+}
+.experience h4, h5, p{    
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.contact{
+background: #000;
+}
+.contact label{
+    color: #fff;
+}
+small{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
