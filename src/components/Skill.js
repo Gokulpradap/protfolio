@@ -6,6 +6,7 @@ import js from "../Assets/javascript.png";
 import bootstrap from "../Assets/bootstrap.png";
 import react from "../Assets/reactjs.png";
 import node from "../Assets/node-js.png";
+import wordpress from "../Assets/wordpress.png";
 import "./css/skill.css"
 const Skill = () => {
   return (
@@ -25,9 +26,10 @@ const Skill = () => {
           <div className="col-lg-3">
             <img  data-aos="fade-up" data-aos-duration='1000' src={bootstrap} alt="" />
           </div>
-          <div className="col-lg-4"> <img  data-aos="fade-up" data-aos-duration='2000' src={react} alt="react" /></div>
-          <div className="col-lg-4"> <img  data-aos="fade-up" data-aos-duration='2000' src={node} alt="node" /></div>
-          <div className="col-lg-4"><img  data-aos="fade-up" data-aos-duration='2000' src={mongodb} alt="" /></div>
+          <div className="col-lg-3"> <img  data-aos="fade-up" data-aos-duration='1000' src={react} alt="react" /></div>
+          <div className="col-lg-3"> <img  data-aos="fade-up" data-aos-duration='1000' src={node} alt="node" /></div>
+          <div className="col-lg-3"><img  data-aos="fade-up" data-aos-duration='1000' src={mongodb} alt="" /></div>
+          <div className="col-lg-3"><img  data-aos="fade-up" data-aos-duration='1000' src={wordpress} alt="" /></div>
         </div>
 
        
