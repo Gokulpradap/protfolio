@@ -1,6 +1,6 @@
 .bg-img{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url("../../Assets/stars-1436950.jpg");
     background-size: cover;
     background-blend-mode: hard-light;
@@ -44,7 +44,7 @@
 }
 
 .icons a{
-    margin: 6.5rem 0 0 0;
+    margin: 5rem 0 0 0;
     color: #fff;
     font-size: 30px;
     transition: .3s ease-in-out;
