@@ -5,8 +5,8 @@ const Education = () => {
   return (
   <div className="container-fluid education" id='education'>
       <div className="container">
-      <div className="row">
-        <div className="col-lg-6 experience" data-aos="fade-right" data-aos-duration='2000'>
+      <div className="row" >
+        <div className="col-lg-6 experience" data-aos="fade-right" data-aos-duration="1000">
         <h1>Education</h1>
       <h4>B.E Mechanical Engineering</h4>
       <p>P.M.R Engineering College, Chennai(2013-2017)</p>
@@ -16,7 +16,7 @@ const Education = () => {
       <p>Government Higher Secondary School,(2011) Maharajapuram</p>
          
         </div>
-        <div className="col-lg-6 experience" data-aos="fade-left" data-aos-duration='2000'>
+        <div className="col-lg-6 experience" data-aos="fade-left" data-aos-duration="1000">
           <h1>Experience</h1>
           <h4>March 2022 to Current</h4>
           <h5>Front End Developer @ Blockchain technologies Coimbatore</h5>

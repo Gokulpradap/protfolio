@@ -10,18 +10,18 @@ const Home = () => {
 <div className="container home">
   <div className="row ">
     <div className="col-lg-12 heading text-center">
-    <h6>Hello!</h6>
-      <h6>
+    <h6 data-aos="fade-up" data-aos-duration="1000">Hello!</h6>
+      <h6 data-aos="fade-up" data-aos-duration="1000">
       Welcome to my portfolio website!
       </h6>
       
-      <h1 data-aos="fade-up" data-aos-duration='1500'>
+      <h1 data-aos="fade-up" data-aos-duration="1000">
         I'm Gokulpradap
       </h1>
-      <h3 data-aos="fade-up" data-aos-duration='1500'>
+      <h3 data-aos="fade-up" data-aos-duration="1000">
         FRONT-END DEVELOPER
       </h3>
-      <a data-aos="fade-up" data-aos-duration='2500' href={resume} download={resume}>Download Resume</a>
+      <a data-aos="fade-up" data-aos-duration="1000" href={resume} download={resume}>Download Resume</a>
     </div>
     <div className="icons" >
       <a target="_blank"  href="https://www.linkedin.com/in/gokulpradap-marichamy-bbb529209" rel="noreferrer"><i><FaLinkedin/></i></a>

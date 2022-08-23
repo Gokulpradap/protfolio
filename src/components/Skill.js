@@ -15,26 +15,22 @@ const Skill = () => {
         <h2>Skills</h2>
         <div className="row">
           <div className="col-lg-3">
-            <img  data-aos="fade-up" data-aos-duration='1000' src={html} alt="html" />
+            <img data-aos="fade-up" data-aos-duration="2000" src={html} alt="html" />
           </div>
           <div className="col-lg-3">
-            <img  data-aos="fade-up" data-aos-duration='1000' src={css} alt="css" />
+            <img data-aos="fade-up" data-aos-duration="2000" src={css} alt="css" />
           </div>
           <div className="col-lg-3">
-            <img  data-aos="fade-up" data-aos-duration='1000' src={js} alt="javascript" />
+            <img data-aos="fade-up" data-aos-duration="2000" src={js} alt="javascript" />
           </div>
           <div className="col-lg-3">
-            <img  data-aos="fade-up" data-aos-duration='1000' src={bootstrap} alt="" />
+            <img data-aos="fade-up" data-aos-duration="2000" src={bootstrap} alt="" />
           </div>
-          <div className="col-lg-3"> <img  data-aos="fade-up" data-aos-duration='1000' src={react} alt="react" /></div>
-          <div className="col-lg-3"> <img  data-aos="fade-up" data-aos-duration='1000' src={node} alt="node" /></div>
-          <div className="col-lg-3"><img  data-aos="fade-up" data-aos-duration='1000' src={mongodb} alt="" /></div>
-          <div className="col-lg-3"><img  data-aos="fade-up" data-aos-duration='1000' src={wordpress} alt="" /></div>
-        </div>
-
-       
-       
-        
+          <div className="col-lg-3"> <img data-aos="fade-up" data-aos-duration="2000" src={react} alt="react" /></div>
+          <div className="col-lg-3"> <img data-aos="fade-up" data-aos-duration="2000" src={node} alt="node" /></div>
+          <div className="col-lg-3"><img data-aos="fade-up" data-aos-duration="2000" src={mongodb} alt="" /></div>
+          <div className="col-lg-3"><img data-aos="fade-up" data-aos-duration="2000" src={wordpress} alt="" /></div>
+        </div>       
       </div>
     </div>
   );
