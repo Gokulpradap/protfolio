@@ -2,7 +2,7 @@
 import React from 'react'
 import "./css/home.css"
 import resume from "../Assets/My Resume.pdf"
-import { FaLinkedin, FaYoutube, FaWhatsappSquare, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+import { FaLinkedin, FaYoutube, FaWhatsappSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
       <a target="_blank"  href="https://wa.me/qr/LXVA2ZRND3CUM1" rel="noreferrer"><i><FaWhatsappSquare/></i></a>
       <a target="_blank"  href="https://www.facebook.com/gokul.pradap" rel="noreferrer"><i><FaFacebookSquare/></i></a>
       <a target="_blank"  href="https://www.instagram.com/invites/contact/?i=gkv6dhll2kgs&utm_content=obmb3yx" rel="noreferrer"><i><FaInstagramSquare/></i></a>
-      
+      <a target="_blank"  href="https://github.com/GokulinCode" rel="noreferrer"><i><FaGithubSquare/></i></a>
      
       
       
