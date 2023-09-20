@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import resume from "../Assets/GOKULPRADAP_M.pdf"
 // import logo from "../Assets/logo-removebg-preview.png"
 import "./css/nav.css"
 const NavB = () => {
@@ -15,9 +16,9 @@ const NavB = () => {
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#education">Education</Nav.Link>
-          <Nav.Link href="#skill">Skill</Nav.Link>          
+          <Nav.Link href="#portfolio">Projects</Nav.Link>          
           <Nav.Link href="#contact">Contact</Nav.Link>
+          <a className='dwn_btn' href={resume} download={resume}>Resume</a>
         </Nav>
       </Navbar.Collapse>
      

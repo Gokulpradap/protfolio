@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "./css/home.css"
-import resume from "../Assets/My Resume.pdf"
-import { FaLinkedin, FaYoutube, FaWhatsappSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare } from 'react-icons/fa';
 
+import { FaLinkedin, FaYoutube, FaWhatsappSquare, FaGithubSquare } from 'react-icons/fa';
+import {stackImg} from "../Data"
 const Home = () => {
   return (
+    <>
     <div className="container-fluid bg-img" id='home'>
 <div className="container home">
   <div className="row ">
@@ -21,23 +22,24 @@ const Home = () => {
       <h3 data-aos="fade-up" data-aos-duration="1000">
         FRONT-END DEVELOPER
       </h3>
-      <a data-aos="fade-up" data-aos-duration="1000" href={resume} download={resume}>Download Resume</a>
+      <div className='stack_img'>
+{
+  stackImg.map(item=> <img data-aos="fade-up" data-aos-duration="1000" src={item.img} alt={item.alt}/>)  
+}
+      </div>
+     
     </div>
     <div className="icons" >
       <a target="_blank"  href="https://www.linkedin.com/in/gokulpradap-marichamy-bbb529209" rel="noreferrer"><i><FaLinkedin/></i></a>
       <a target="_blank"  href="https://www.youtube.com/channel/UCh9sdrgGHAOuRAaonEHiO8g" rel="noreferrer"> <i><FaYoutube/></i></a>
       <a target="_blank"  href="https://wa.me/qr/LXVA2ZRND3CUM1" rel="noreferrer"><i><FaWhatsappSquare/></i></a>
-      <a target="_blank"  href="https://www.facebook.com/gokul.pradap" rel="noreferrer"><i><FaFacebookSquare/></i></a>
-      <a target="_blank"  href="https://www.instagram.com/invites/contact/?i=gkv6dhll2kgs&utm_content=obmb3yx" rel="noreferrer"><i><FaInstagramSquare/></i></a>
-      <a target="_blank"  href="https://github.com/GokulinCode" rel="noreferrer"><i><FaGithubSquare/></i></a>
-     
-      
-      
-      
+      {/* <a target="_blank"  href="https://www.instagram.com/invites/contact/?i=gkv6dhll2kgs&utm_content=obmb3yx" rel="noreferrer"><i><FaInstagramSquare/></i></a> */}
+      <a target="_blank"  href="https://github.com/Gokulpradap" rel="noreferrer"><i><FaGithubSquare/></i></a>      
     </div>
   </div>
 </div>
     </div>
+    </>
   )
 }
 

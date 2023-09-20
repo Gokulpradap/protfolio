@@ -9,3 +9,8 @@ small{
     display: flex;
     justify-content: center;
 }
+textarea{
+    height: 8rem;
+    outline: none;
+    resize: none !important;
+}
