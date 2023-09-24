@@ -8,10 +8,10 @@ const About = () => {
      <div className="container-inside">
      <div className="row">
        
-          <h1>About Me</h1>
+          <h1 className="text-center">About Me</h1>
 
           <div className="col-lg-6 experience" data-aos="fade-right" data-aos-duration="1000">
-          <h1>Experience</h1>
+          <h2>Experience</h2>
           <h4>March 2022 to Current</h4>
           <h5>Front End Developer @ Blockx IT Solutions LLP</h5>
           <p>
@@ -33,7 +33,7 @@ const About = () => {
           </p>
         </div>
         <div className="col-lg-6 experience" data-aos="fade-left" data-aos-duration="1000">
-        <h1>Intro</h1>
+        <h2>Intro</h2>
          <p>I am a mechanical engineer who has enthusiastically transitioned into web development. My journey began with
 self-learning on Guvi, where I acquired a solid foundation in web development. During my 1.6-year tenure at
 Blockx IT Solutions LLP, I gained valuable practical experience in the field. My mechanical engineering
@@ -42,7 +42,9 @@ problem-solving abilities. I am committed to making meaningful contributions to 
 industry and eager to continue growing in my web development career.
 </p>
 <br />
+<br />
 <p><SiGmail/> gokulmari96@gmail.com</p>
+<br />
 <p><FaMobile/> +91-7845536140</p>
         </div>
       </div>

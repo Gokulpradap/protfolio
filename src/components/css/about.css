@@ -1,24 +1,20 @@
 .about-details h5{
     color: #000;
-    /* line-height: 3; */
-    /* margin: 0 0 0 5rem; */
 }
 .about-details p{
     color: #000;
     font-size: 18px;
-    /* line-height: 2; */
     margin: 0 5rem 0 0;
     
 }
 .about-details h1{
-    color: #000;
-    /* line-height: 2; */
-    border-bottom: 2px solid rgb(255, 208, 0);
+    color: #00005f;
     margin: 2rem 0;
-    text-align: center;
+    font-weight: bold;
+    /* text-align: center; */
 }
-.about-details .about{    
-    margin: 3rem 0 0 0;
+.about-details{    
+    margin: -5rem 0 -4rem 0;
 }
 @media (max-width: 992px) {
     .about-details h5{

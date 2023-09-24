@@ -8,7 +8,7 @@ import img7 from "./Assets/pngwing.com (4).png";
 import blockx from "./Assets/Screenshot (376).png";
 import p3n from "./Assets/Screenshot (377).png";
 import spl from "./Assets/spl.png"
-
+import Nike from "./Assets/Nike.png"
  export const stackImg = [
   {
     img: img2,
@@ -43,17 +43,21 @@ import spl from "./Assets/spl.png"
 export const skill =[
   {
     image : blockx,
-    name : "BlockX Website",
+    name : "BlockX Website - Live",
     link : "https://blockxsolutions.io/"
   },
   {
     image : p3n,
-    name : "P3N Protocal",
+    name : "P3N Protocal - Live",
     link : "https://p3nprotocol.com/"
   },
  { image : spl,
-  name : "Spl Tech",
+  name : "Spl Tech - Completed",
   link : "https://650945401b7ad9264886d3c5--lustrous-pie-c5b3a2.netlify.app/"
+},
+{ image : Nike,
+  name : "Nike-Tailwind-Css",
+  link : "https://timely-granita-e7f26c.netlify.app/"
 },
 ]
 
