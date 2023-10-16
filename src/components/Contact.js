@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="container-fluid contact" id="contact">
         <div className="container">
           <div className="row">
-            <h1>Contact Me!</h1>
+            <h1 style={{color: "#fff"}}>Contact Me!</h1>
             <div className="col-lg-3"></div>
             <div className="col-lg-6 mt-5">
               <form className="mt-5">

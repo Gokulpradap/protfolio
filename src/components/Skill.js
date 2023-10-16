@@ -26,7 +26,28 @@ const Skill = () => {
           
         </div>
       </div>
-     
+      {/* task */}
+      {/* <div className="container">
+      <h2 style={{color:"#00005F", fontWeight:"600"}}>Tasks</h2>
+        <div className="row text-center">
+          <div className="col-lg-12">
+           
+          </div>
+          <div className="con">
+            {skill.map((item) => (
+              <div className="boxs">
+                <a target="_blanck" href={item.link}>                
+                  <div className="box">                   
+                    <img src={item.image} alt={item.name} />
+                    <h5 className="mt-3">{item.name}</h5>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+          
+        </div>
+      </div> */}
       </div>
   );
 };

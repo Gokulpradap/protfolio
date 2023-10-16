@@ -9,6 +9,8 @@ import blockx from "./Assets/Screenshot (376).png";
 import p3n from "./Assets/Screenshot (377).png";
 import spl from "./Assets/spl.png"
 import Nike from "./Assets/Nike.png"
+import tail from "./Assets/tail.png"
+import boot from "./Assets/boot.png"
  export const stackImg = [
   {
     img: img2,
@@ -58,6 +60,14 @@ export const skill =[
 { image : Nike,
   name : "Nike-Tailwind-Css",
   link : "https://timely-granita-e7f26c.netlify.app/"
+},
+{ image : tail,
+  name : "Dashboard-Tailwind",
+  link : "https://animated-gumdrop-68cf82.netlify.app/"
+},
+{ image : boot,
+  name : "Dashboard-Bootstrap",
+  link : "https://thunderous-custard-c52bbd.netlify.app/"
 },
 ]
 
